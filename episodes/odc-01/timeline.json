@@ -1,0 +1,33 @@
+{
+  "episode": "odc-01",
+  "timelineSource": "flipbook",
+  "languageNeutral": true,
+  "note": "JĘZYKOWO NEUTRALNY. Te same segmenty obsługują KAŻDY język narracji. Aby dodać język, NIE zmieniasz tego pliku — tworzysz narration/<lang>.md z tymi samymi ID segmentów. Dane poniżej to MOCK (przykład formatu).",
+  "fps": 25,
+  "segments": [
+    {
+      "id": "S01",
+      "flipbookPage": 1,
+      "start": "00:00:00.000",
+      "end": "00:00:06.000",
+      "durationSec": 6.0,
+      "scene": "okładka / intro — wejście Janusza"
+    },
+    {
+      "id": "S02",
+      "flipbookPage": 2,
+      "start": "00:00:06.000",
+      "end": "00:00:12.000",
+      "durationSec": 6.0,
+      "scene": "problem — o co chodzi w odcinku"
+    },
+    {
+      "id": "S03",
+      "flipbookPage": 3,
+      "start": "00:00:12.000",
+      "end": "00:00:18.000",
+      "durationSec": 6.0,
+      "scene": "puenta / wezwanie do działania"
+    }
+  ]
+}

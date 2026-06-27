@@ -1,0 +1,18 @@
+{
+  "episode": "odc-01",
+  "series": "Janusz biznesu",
+  "status": "MOCK — szkielet do podmiany na prawdziwy odcinek 1",
+  "sourceLanguage": "pl",
+  "titles": {
+    "pl": "Janusz biznesu — Odcinek 1 (MOCK)",
+    "es": "",
+    "en": ""
+  },
+  "narrationLanguages": ["pl"],
+  "plannedLanguages": ["es", "en"],
+  "flipbook": {
+    "reused": true,
+    "note": "Ten sam render flipbooka obsługuje każdy język. Patrz timeline.json."
+  },
+  "totalDurationSec": 18.0
+}
