@@ -39,6 +39,7 @@ episodes/
     timeline.json          # JĘZYKOWO NEUTRALNY: segmenty flipbooka + timecode
     narration/
       pl.md                # narracja PL (oryginał)
+      de.md                # narracja DE (szablon do tłumaczenia — te same ID)
       es.md                # narracja ES (szablon do tłumaczenia — te same ID)
     source/
       pl_oryginal.md       # surowy tekst źródłowy „od Janusza" (zanim pociąć na segmenty)
@@ -49,13 +50,17 @@ episodes/
 
 ---
 
-## Dodanie nowego języka narracji (np. EN)
+## Języki narracji
 
-1. Skopiuj `episodes/odc-01/narration/es.md` → `narration/en.md`.
+Obecnie: **PL** (oryginał), **DE**, **ES**.
+
+## Dodanie kolejnego języka narracji
+
+1. Skopiuj `episodes/odc-01/narration/de.md` → `narration/<xx>.md`.
 2. Zostaw **nagłówki `## [Sxx] ...` bez zmian** (wiążą tekst z timeline.json).
 3. Przetłumacz tylko tekst pod każdym segmentem.
-4. Dopisz tytuł EN w `meta.json` (`titles.en`).
-5. Timeline (`timeline.json`) i flipbook — **nie ruszasz**. Lektor EN nagrywasz pod te same timecode'y.
+4. Dopisz tytuł w `meta.json` (`titles.<xx>`).
+5. Timeline (`timeline.json`) i flipbook — **nie ruszasz**. Lektor nagrywasz pod te same timecode'y.
 
 ---
 

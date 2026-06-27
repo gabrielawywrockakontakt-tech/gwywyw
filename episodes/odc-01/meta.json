@@ -5,11 +5,11 @@
   "sourceLanguage": "pl",
   "titles": {
     "pl": "Janusz biznesu — Odcinek 1 (MOCK)",
-    "es": "",
-    "en": ""
+    "de": "",
+    "es": ""
   },
   "narrationLanguages": ["pl"],
-  "plannedLanguages": ["es", "en"],
+  "plannedLanguages": ["de", "es"],
   "flipbook": {
     "reused": true,
     "note": "Ten sam render flipbooka obsługuje każdy język. Patrz timeline.json."
