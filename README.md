@@ -64,6 +64,16 @@ Obecnie: **PL** (oryginał), **DE**, **ES**.
 
 ---
 
+## Walidacja
+
+```
+python3 scripts/check_segments.py
+```
+
+Sprawdza, że każdy `narration/<lang>.md` ma dokładnie te same segmenty `[Sxx]`
+co `timeline.json` (czyli wszystkie języki siedzą na tym samym timeline flipbooka),
+i pokazuje, ile segmentów czeka na tłumaczenie. Kod wyjścia ≠ 0 = niespójność.
+
 ## Reguły
 
 - **Nie zmieniaj ID segmentów** (`S01`...) ani ich timecode'ów bez ponownego renderu flipbooka —
